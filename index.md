@@ -1,7 +1,3 @@
----
-layout: default
----
-
 <div id="viewer" style="max-width: 900px; margin: 0 auto;"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.7.76/pdf.min.js"></script>
