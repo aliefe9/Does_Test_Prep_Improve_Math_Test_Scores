@@ -3,3 +3,6 @@ title: Ali Efe Isik
 description: "Ali Efe Isik <br> Student Athlete at Whitman College"
 #show_downloads: true
 theme: jekyll-theme-cayman
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
