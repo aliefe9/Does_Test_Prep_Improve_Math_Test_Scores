@@ -1,7 +1,3 @@
----
-layout: default
----
-
 ## Introduction
 Many high school students take test prep courses because they want to improve their academic performance, but whether test prep is associated with meaningful improvement is not always clear. In this report, I use the Kaggle “Students’ Performance in Exams” dataset ($n = 1000$) to study math achievement and test-prep participation in a broader population of similar students. This question is relevant to students, families, and educators because test prep can take substantial time and money, and schools may use evidence like this when deciding whether to recommend or support prep programs. The main question is: “Do students who complete a test preparation course tend to score higher in math than students who do not?” To express this comparison, let $X$ be the math score of a randomly selected student who completed test prep and let $Y$ be the math score of a randomly selected student with no test prep, and define the difference random variable $D = X - Y$. I estimate the typical value of $D$ using two estimators, the mean of differences and the median of differences, and then use resampling methods to compare these estimators and answer the research question.
 
