@@ -20,11 +20,15 @@ Observed mean of differences (T1_obs)   = 5.704
 Observed median of differences (T2_obs) = 6.5 
 
 ## Bootstrap method
-To see how much these estimators could change from sample to sample, I use a nonparametric bootstrap. In each bootstrap run, I resample math scores with replacement from the completed group and resample the same number of scores with replacement from the no-prep group. I subtract the resampled scores to create a bootstrap set of differences $D^{*} = X^{*} - Y^{*}$, then compute the mean of differences $T_1^{*} = \mathrm{mean}(D^{*})$ and the median of differences $T_2^{*} = \mathrm{median}(D^{*})$. Repeating this many times gives empirical sampling distributions for $T_1$ and $T_2$, which lets me compare their variability and uncertainty.
+To see how much these estimators could change from sample to sample, I use a nonparametric bootstrap. In each bootstrap run, I resample math scores with replacement from the completed group and resample the same number of scores with replacement from the no-prep group. I subtract the resampled scores to create a bootstrap set of differences \(D^{*} = X^{*} - Y^{*}\), then compute the mean of differences \(T_1^{*} = \mathrm{mean}(D^{*})\) and the median of differences \(T_2^{*} = \mathrm{median}(D^{*})\). Repeating this many times gives empirical sampling distributions for \(T_1\) and \(T_2\), which lets me compare their variability and uncertainty.
 
-$D^{*} = X^{*} - Y^{*}, \qquad T_1^{*} = \mathrm{mean}(D^{*}), \qquad T_2^{*} = \mathrm{median}(D^{*})$
+\[
+D^{*} = X^{*} - Y^{*}, \qquad
+T_1^{*} = \mathrm{mean}(D^{*}), \qquad
+T_2^{*} = \mathrm{median}(D^{*})
+\]
 
-visual 2....
+visual 2….
 
 ## Results
 The bootstrap histograms show the empirical sampling distributions of the mean of differences and the median of differences. Each histogram is centered near the corresponding observed estimate, shown by the red vertical line, and the spread of each distribution represents how much the estimator would vary across repeated samples. Visually, the more concentrated histogram corresponds to the estimator that is more stable.
