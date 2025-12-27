@@ -1,8 +1,0 @@
-/* Left floating TOC ("Topics") */
-.tocify, .list-group.tocify {
-  font-size: 12px !important;
-  line-height: 1.2 !important;
-}
-.tocify .list-group-item {
-  padding: 6px 10px !important;
-}
